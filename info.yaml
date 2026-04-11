@@ -2,8 +2,8 @@
 project:
   title:        "tiny tapeout practice"      # Project title
   author:       "cynthia del rio"      # Your name
-  discord:      "xx"      # Your discord username, for communication and automatically assigning you a Tapeout role (optional)
-  description:  "xx"      # One line description of what your project does
+  discord:      ""      # Your discord username, for communication and automatically assigning you a Tapeout role (optional)
+  description:  "Generates animated VGA sync and RGB output"      # One line description of what your project does
   language:     "Verilog" # other examples include SystemVerilog, Amaranth, VHDL, etc
   clock_hz:     0       # Clock frequency in Hz (or 0 if not applicable)
 
@@ -34,14 +34,14 @@ pinout:
   ui[7]: ""
 
   # Outputs
-  uo[0]: ""
-  uo[1]: ""
-  uo[2]: ""
-  uo[3]: ""
-  uo[4]: ""
-  uo[5]: ""
-  uo[6]: ""
-  uo[7]: ""
+  uo[0]: "hsync"
+  uo[1]: "B0"
+  uo[2]: "G0"
+  uo[3]: "R0"
+  uo[4]: "vsync"
+  uo[5]: "B1"
+  uo[6]: "G1"
+  uo[7]: "R1"
 
   # Bidirectional pins
   uio[0]: ""
